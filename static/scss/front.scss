@@ -21,9 +21,14 @@
       flex: 1;
       display: block;
       cursor: pointer;
+      color: #42444e;
+      text-decoration: none;
       &:first-child {
         margin-right: 20px;
       }
+    }
+    .result {
+      margin-right: 0 !important;
     }
   }
 }
@@ -50,8 +55,17 @@
   }
 }
 .select_name {
-  margin-top: 0;
+  margin-top: 10px;
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+}
+.goFirst {
+  display: block;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .match_box {
+    width: calc(100% - 32px);
+  }
 }
