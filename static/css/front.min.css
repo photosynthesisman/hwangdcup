@@ -32,6 +32,12 @@
 .match_box .selection .result {
   margin-right: 0 !important;
 }
+.match_box .noti {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
 
 .img-box {
   position: relative;
