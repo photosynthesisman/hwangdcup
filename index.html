@@ -121,8 +121,8 @@
       let allRandom = "";
       let leftImage = "";
       let rightImage = "";
-      while (count < 10) {
-        const randomNum = Math.floor(Math.random() * 8 + 1);
+      while (count < 21) {
+        const randomNum = Math.floor(Math.random() * 20 + 1);
         allRandom = randomNum;
         if (randomNum % 2 !== 0) {
           count++;
@@ -133,7 +133,7 @@
           rightImage = randomNum;
         }
       }
-
+      console.log(allRandom, leftImage, rightImage);
       const address = "./static/images/";
 
       $(".left .img-box img").attr("src", address + leftImage + ".png");
